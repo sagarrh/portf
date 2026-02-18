@@ -67,7 +67,7 @@ export default function Home() {
       <div className="mx-auto w-full max-w-3xl px-4 pb-32 md:px-8 md:pt-2">
         <div className="mb-6 p-4 flex justify-center md:ml-20">
           <Image
-            src="/static/img/avatar.png"
+            src="/static/img/firstone.png"
             alt="Sagar Harsora"
             width={300}
             height={300}
