@@ -1,4 +1,4 @@
-# [sagarh.com](https://www.sagarh.com)
+# [sagarh.com](https://sagarh.com)
 
 ## Todo
 - Shadcn
