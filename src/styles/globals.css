@@ -3,7 +3,9 @@
 @source "../**/*.js";
 
 @theme {
-  --color-off-white: #f5f2e9;
+  /* --color-off-white: #f5f2e9; */
+  --color-off-white: #EBF4DD;
+
 }
 
 @layer base {
