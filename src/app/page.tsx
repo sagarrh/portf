@@ -295,7 +295,7 @@ export default function Home() {
 
           {/* ── ONLINE ── */}
           <section className="mb-12">
-            <SectionLabel>Online</SectionLabel>
+            <SectionLabel>Digital</SectionLabel>
             <div className="flex flex-col divide-y divide-gray-100">
               <TableRow href="mailto:harsorasagar04@gmail.com" title="Email" subtitle="harsorasagar04@gmail.com" shortcut="E" copyable />
               <TableRow href="https://github.com/sagarrh" title="GitHub" subtitle="sagarrh" shortcut="G" />
@@ -350,7 +350,7 @@ export default function Home() {
             </div>
 
             <p className="font-apple2mono text-[9px] uppercase tracking-widest text-quaternary">
-              © 2026 Sagar Harsora
+              © 2026 Sagar Harsora.
             </p>
           </div>
 
