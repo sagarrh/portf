@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     description: "Software Engineer.",
     images: [
       {
-        url: "https://www.sagarh.com/static/sagarh.jpg",
+        url: "https://sagarh.com/static/sagarh.jpg",
         alt: "Sagar Harsora",
       },
     ],
