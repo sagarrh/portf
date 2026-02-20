@@ -270,14 +270,14 @@ export default function Home() {
               >
                 Vibe Engine
               </Link>
-              . I enjoy sidequesting and building things with LLMs.{" "}
+              . I enjoy sidequesting and building things.{" "}
               <Link
                 href="mailto:harsorasagar04@gmail.com"
                 className="text-primary font-medium hover:text-indigo-600 transition-colors underline underline-offset-2 decoration-gray-300 hover:decoration-indigo-400"
               >
-                Say hi
+                Reach out
               </Link>{" "}
-              if you want to chat.
+              if you want to chat.:-/
             </p>
           </div>
 

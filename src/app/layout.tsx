@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     description: "Software Engineer.",
     images: [
       {
-        url: "https://instagram.fbom36-1.fna.fbcdn.net/v/t51.2885-19/629355398_18070089518632325_5023492646030343554_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=instagram.fbom36-1.fna.fbcdn.net&_nc_cat=105&_nc_oc=Q6cZ2QG5ZAGQqKIAgwzBX2tEE51nVfFJH4WawlwWSrw8DNyr540REOtlBCtLa1CIBvtSPGI&_nc_ohc=NeQgyefL_CgQ7kNvwHtm66S&_nc_gid=IpHYPRnHiXSmsqKTRKwVIQ&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Afu-epe3kqQ8-bwLIOYmgZffH-FgXW1DdzREhxfYU1Hefw&oe=699C95F0&_nc_sid=8b3546",
+        url: "https://www.sagarh.com/static/sagarh.jpg",
         alt: "Sagar Harsora",
       },
     ],
