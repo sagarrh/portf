@@ -116,6 +116,47 @@ function LiveClock() {
     </span>
   );
 }
+// ── LIVE AGE ───────────────────────────────────────────────
+function LiveAge() {
+  const [ageText, setAgeText] = useState("");
+
+  useEffect(() => {
+    const update = () => {
+      const birthDate = new Date(2004, 6, 7); // July 7, 2004
+      const today = new Date();
+      
+      let years = today.getFullYear() - birthDate.getFullYear();
+      let months = today.getMonth() - birthDate.getMonth();
+      let days = today.getDate() - birthDate.getDate();
+
+      if (days < 0) {
+        months--;
+        const prevMonth = new Date(today.getFullYear(), today.getMonth(), 0);
+        days += prevMonth.getDate();
+      }
+
+      if (months < 0) {
+        years--;
+        months += 12;
+      }
+
+      const weeks = Math.floor(days / 7);
+      const remainingDays = days % 7;
+
+      setAgeText(
+        `${years}y ${months}m ${weeks}w ${remainingDays}d`
+      );
+    };
+    update();
+  }, []);
+
+  if (!ageText) return null;
+  return (
+    <span className="font-apple2mono text-[10px] text-quaternary uppercase tracking-widest">
+      {ageText}
+    </span>
+  );
+}
 
 // ── TABLE ROW ──────────────────────────────────────────────
 interface TableRowProps {
@@ -243,7 +284,9 @@ export default function Home() {
                     Mumbai ·
                   </p>
                   <LiveClock />
+                  <LiveAge />
                 </div>
+                
               </div>
             </div>
 
@@ -268,7 +311,7 @@ export default function Home() {
                 rel="noopener noreferrer"
                 className="text-primary font-medium hover:text-indigo-600 transition-colors underline underline-offset-2 decoration-gray-300 hover:decoration-indigo-400"
               >
-                Vibe Engine
+                Vibe Engine 
               </Link>
               . I enjoy sidequesting and building things.{" "}
               <Link
@@ -282,7 +325,13 @@ export default function Home() {
           </div>
 
           <div className="border-t border-gray-200 mb-12" />
-
+          {/* ── ACADEMICS ── */}
+          <section className="mb-12">
+            <SectionLabel>Academics</SectionLabel>
+            <div className="flex flex-col divide-y divide-gray-100">
+              <TableRow href="https://www.djsce.ac.in" title="DJ Sanghvi" subtitle="B.Tech Information Technology, 2022-2026" />
+            </div>
+          </section>
           {/* ── WORK ── */}
           <section className="mb-12">
             <SectionLabel>Work</SectionLabel>
